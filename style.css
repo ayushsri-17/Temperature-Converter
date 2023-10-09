@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
+
+#card{
+  border-radius: 20px ;
+  height: 600px;
+  width: 400px;
+  background-color: rgb(21, 63, 67);
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#card img{
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+
+}
+#card h1{
+  font-size: 25px;
+  margin: 10px 30px;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+  color: antiquewhite;
+  font-size: 18px;
+  margin: 10px 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cel{
+ border-radius: 20px;
+ box-shadow: 1px 4px;
+ height: 5%;
+ width: 90%;
+ margin: 10px 20px;
+ cursor: pointer;
+}
+
+#fah{
+  border-radius: 20px;
+  box-shadow: 1px 4px;
+  height: 5%;
+  width: 90%;
+  margin: 10px 20px;
+  font-style: bold;
+  cursor: pointer;
+ }
+
+ #kel{
+  border-radius: 20px;
+  box-shadow: 1px 4px;
+  height: 5%;
+  width: 90%;
+  margin: 10px 20px;
+  font-style: bold;
+  cursor: pointer;
+ }
+
+
